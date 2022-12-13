@@ -549,7 +549,7 @@ video {
   line-height: 1.5rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-  background-image: url('/images/bg-intro-mobile.png');
+  background-image: url('images/bg-intro-mobile.png');
   background-position: center;
   background-size: contain;
 }
@@ -737,4 +737,10 @@ video {
   font-weight: 700;
   --tw-text-opacity: 1;
   color: hsl(0 100% 74% / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .body-base {
+    background-image: url('images/bg-intro-desktop.png');
+  }
 }

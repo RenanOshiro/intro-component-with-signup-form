@@ -6,7 +6,7 @@
 
 .body-base {
   @apply min-h-screen font-poppins text-base text-white bg-primaryRed flex flex-col items-center justify-center;
-  background-image: url('/images/bg-intro-mobile.png');
+  background-image: url('images/bg-intro-mobile.png');
   background-position: center;
   background-size: contain;
 }
@@ -68,4 +68,10 @@
 }
 .terms span {
   @apply text-primaryRed font-bold;
+}
+
+@media (min-width: 768px) {
+  .body-base {
+    background-image: url('images/bg-intro-desktop.png');
+  }
 }
